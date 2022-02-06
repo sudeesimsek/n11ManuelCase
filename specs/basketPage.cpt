@@ -1,0 +1,102 @@
+# Make cheapest item 3
+* Get cheapest price
+* Wait a "3" second
+
+# Pay as guest user progress to step
+* Click "//a[@class='btn-continue']" element by xpath
+* Wait a "3" second
+
+# Enter email
+* Find "//input[@id='guestEmail']" element by xpath and write "n11manueltest@gmail.com" text
+* Wait a "3" second
+* Click "(//span[@class='btn btnBlack'])[1]" element by xpath
+* Wait a "3" second
+* Scroll Down
+* Wait a "3" second
+
+# Enter name
+* Find "//input[@id='fullName']" element by xpath and write "Sude Şimşek" text
+* Wait a "3" second
+
+# Select city
+* Click "//select[@id='cityId']" element by xpath
+* Click "//*[text()='Adana']" element by xpath
+* Wait a "3" second
+
+# Select district
+* Click "//select[@id='districtId']" element by xpath
+* Click "//*[text()='Aladağ']" element by xpath
+* Wait a "3" second
+
+# Select neighbourhood
+* Click "//select[@id='neighbourhoodId']" element by xpath
+* Click "//*[text()='Akören']" element by xpath
+* Wait a "3" second
+
+# Enter adress
+* Find "//textarea[@name='shippingAddress.address']" element by xpath and write "19 Mayıs Mahallesi" text
+* Wait a "3" second
+
+# Enter GSM
+* Click "//input[@id='gsm']" element by xpath
+* Find "//input[@id='gsm']" element by xpath and write "111111111" text
+* Wait a "3" second
+
+# Enter TC
+* Find "//input[@id='shippingAddresstcNO']" element by xpath and write "27158392412" text
+* Wait a "3" second
+
+# Enter adress header
+* Find "//input[@id='addressName']" element by xpath and write "n11Ofis" text
+* Wait a "3" second
+
+# Enter invalid card number
+* Find "(//input[@class='cardNumberInput -metrika-nokeys ui-input-numpad'])[1]" element by xpath and write "1111" text
+* Wait a "3" second
+* Find "(//input[@class='cardNumberInput -metrika-nokeys ui-input-numpad'])[2]" element by xpath and write "2222" text
+* Wait a "3" second
+* Find "(//input[@class='cardNumberInput -metrika-nokeys ui-input-numpad'])[3]" element by xpath and write "3333" text
+* Wait a "3" second
+* Find "(//input[@class='cardNumberInput -metrika-nokeys ui-input-numpad'])[4]" element by xpath and write "4444" text
+* Wait a "3" second
+
+# Enter invalid card owner
+* Find "//input[@id='cardOwnerName']" element by xpath and write "Sude Şimşek" text
+* Wait a "3" second
+
+# Select invalid expire month
+* Click "//select[@id='expireMonth']" element by xpath
+* Click "//option[@value='1']" element by xpath
+* Wait a "3" second
+
+# Select invalid expire year
+* Click "//select[@id='expireYear']" element by xpath
+* Click "//option[@value='2022']" element by xpath
+* Wait a "3" second
+
+# Enter invalid CVC2
+* Find "//input[@id='securityCode']" element by xpath and write "1111" text
+* Wait a "3" second
+
+# Click accept agreement button
+* Click "//label[@for='acceptAgreement']" element by xpath
+* Wait a "3" second
+
+# Click payment button
+* Click "//span[@class='btn btnGreen big']" element by xpath
+* Wait a "3" second
+
+# Go to payment
+* Click "//span[@id='js-goToPaymentBtn']" element by xpath
+* Wait a "3" second
+
+
+
+
+
+
+
+
+
+
+

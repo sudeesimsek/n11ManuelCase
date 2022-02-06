@@ -1,0 +1,22 @@
+# n11 home page opens
+* Go to "https://www.n11.com"
+* Wait a "3" second
+* Click "div[id='myLocation-close-info']" element by css
+* Wait a "3" second
+
+# Click shops
+* Click "span[title='Mağazalar']" element by css
+* Wait a "3" second
+
+# Click see shops
+* Click "a[title='Mağazaları Gör']" element by css
+* Wait a "3" second
+
+# Searched <product> in the search button
+* Find "//input[@id='searchData']" element by xpath and write <product> text
+* Wait a "3" second
+* Send enter to "//input[@id='searchData']" element
+* Get "//div[@class='resultText ']" element text
+* Wait a "3" second
+
+

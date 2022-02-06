@@ -1,0 +1,48 @@
+# The first product on the first page is added to the cart
+* Click "(//h3[@class='productName'])[1]" element by xpath
+* Wait a "3" second
+* Click "(//a[@class='btn btnGrey addBasketUnify'])[1]" element by xpath
+* Wait a "3" second
+
+# The lastest product on the first page is added to the cart
+* Wait a "3" second
+* Click "(//h3[@class='productName'])[28]" element by xpath
+* Wait a "3" second
+* Click "(//a[@class='btn btnGrey addBasketUnify'])[1]" element by xpath
+* Wait a "3" second
+
+# The fifth product on the third page is added to the cart
+* Wait a "3" second
+* Click "//*[@id='contentListing']/div/div/div[2]/div[3]/a[3]" element by xpath
+* Wait a "7" second
+* Click "(//h3[@class='productName'])[5]" element by xpath
+* Wait a "3" second
+* Click "(//a[@class='btn btnGrey addBasketUnify'])[1]" element by xpath
+* Wait a "3" second
+
+# Go to chart
+* Click "//i[@class='icon iconBasket']" element by xpath
+* Wait a "3" second
+* Click "//span[@class='btn btnBlack']" element by xpath
+* Wait a "3" second
+
+# Click buy it
+* Click "//span[@id='js-buyBtn']" element by xpath
+* Wait a "3" second
+
+# The second brand is selected from the filters
+* Click "//input[@id='brand-m-Xiaomi']" element by xpath
+* Wait a "3" second
+
+# Click smart sort
+* Click "//select[@id='sortingType']" element by xpath
+* Wait a "3" second
+
+# Click reviews
+* Click "//option[@value='REVIEWS']" element by xpath
+* Wait a "3" second
+
+# Click free shipping
+* Click "//input[@id='freeShippingOption']" element by xpath
+* Wait a "3" second
+

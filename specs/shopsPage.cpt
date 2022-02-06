@@ -1,0 +1,11 @@
+# Click all shops
+* Click "//h3[text()='Tüm Mağazalar']" element by xpath
+* Wait a "3" second
+
+# Click shop comments
+* Click "//span[text()='Mağaza Yorumları']" element by xpath
+* Wait a "3" second
+
+# How many shop comments are made about the selected store is checked
+* Get "span[class='selectedReview']" element text
+* Wait a "3" second
